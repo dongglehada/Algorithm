@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 
 func solution(_ a:Int, _ b:Int) -> Int {
     let stringA = String(a)
@@ -11,4 +11,5 @@ func solution(_ a:Int, _ b:Int) -> Int {
     guard let intSumB = Int(strSumB) else { return 0 }
     
     return intSumA > intSumB ? intSumA : intSumB
+    
 }
